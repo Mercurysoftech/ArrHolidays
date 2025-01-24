@@ -1,0 +1,63 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "F&B"
+        },
+        {
+            "id": 2,
+            "name": "Attraction"
+        },
+        {
+            "id": 3,
+            "name": "WiFi & SIM Card"
+        },
+        {
+            "id": 4,
+            "name": "Others"
+        },
+        {
+            "id": 5,
+            "name": "Lifestyle"
+        },
+        {
+            "id": 6,
+            "name": "Entertainment"
+        },
+        {
+            "id": 7,
+            "name": "Events"
+        },
+        {
+            "id": 8,
+            "name": "Tours"
+        },
+        {
+            "id": 9,
+            "name": "Transportation"
+        },
+        {
+            "id": 10,
+            "name": "Novelty & Excitement"
+        },
+        {
+            "id": 11,
+            "name": "Dining"
+        },
+        {
+            "id": 12,
+            "name": "Sustainability"
+        },
+        {
+            "id": 13,
+            "name": "Wellness"
+        },
+        {
+            "id": 14,
+            "name": "Retail"
+        }
+    ],
+    "error": null,
+    "size": null,
+    "success": true
+}
