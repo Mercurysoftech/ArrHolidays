@@ -43,6 +43,17 @@ const getAccountData2 = () => {
   return JSON.parse(jsonData)    
 }
 
+const saveAccountData3 = (data) => {
+  const stringifyData = JSON.stringify(data)
+  fs.writeFileSync(dataPathcategories, stringifyData)
+}
+
+const getAccountData3 = () => {
+  const jsonData = fs.readFileSync(dataPathcategories)
+  return JSON.parse(jsonData)    
+}
+
+
 // reading the data
 accountRoutes.get('/account', (req, res) => {
     fs.readFile(dataPath, 'utf8', (err, data) => {
