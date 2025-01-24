@@ -8,6 +8,8 @@ const dataPathcountry = './Details/countries.json'
 
 const dataPathcities = './Details/cities.json' 
 
+const dataPathcategories = './Details/categories.json' 
+
 // util functions 
 
 const saveAccountData = (data) => {
@@ -64,6 +66,16 @@ accountRoutes.get('/account', (req, res) => {
 
   accountRoutes.get('/api/city/getAllCities', (req, res) => {
     fs.readFile(dataPathcities, 'utf8', (err, data) => {
+      if (err) {
+        throw err;
+      }
+
+      res.send(JSON.parse(data));
+    });
+  });
+
+  accountRoutes.get('/api/merchantCategory/getAllCategories', (req, res) => {
+    fs.readFile(dataPathcategories, 'utf8', (err, data) => {
       if (err) {
         throw err;
       }
